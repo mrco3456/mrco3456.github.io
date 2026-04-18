@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Ruiz | Data Analyst Portfolio</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #0d1117; color: #e6edf3; }
+        header { background: #161b22; padding: 60px 40px; text-align: center; border-bottom: 1px solid #30363d; }
+        header h1 { font-size: 2.5rem; color: #58a6ff; }
+        header p { font-size: 1.1rem; color: #8b949e; margin-top: 10px; }
+        .badge { display: inline-block; background: #21262d; border: 1px solid #30363d; padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; color: #58a6ff; margin: 5px; }
+        .badges { margin-top: 15px; }
+        section { max-width: 900px; margin: 50px auto; padding: 0 20px; }
+        h2 { font-size: 1.5rem; color: #58a6ff; border-bottom: 1px solid #30363d; padding-bottom: 10px; margin-bottom: 25px; }
+        .card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 25px; margin-bottom: 20px; transition: border-color 0.3s; }
+        .card:hover { border-color: #58a6ff; }
+        .card h3 { font-size: 1.2rem; color: #e6edf3; margin-bottom: 8px; }
+        .card p { color: #8b949e; font-size: 0.95rem; line-height: 1.6; margin-bottom: 15px; }
+        .tags { margin-bottom: 15px; }
+        .tag { display: inline-block; background: #0d419d22; border: 1px solid #1f6feb; color: #58a6ff; padding: 3px 10px; border-radius: 12px; font-size: 0.8rem; margin: 3px; }
+        .btn { display: inline-block; background: #238636; color: #fff; padding: 8px 18px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; transition: background 0.3s; }
+        .btn:hover { background: #2ea043; }
+        .about p { color: #8b949e; line-height: 1.8; font-size: 1rem; }
+        footer { text-align: center; padding: 30px; color: #8b949e; font-size: 0.85rem; border-top: 1px solid #30363d; margin-top: 60px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Marcos Ruiz</h1>
+    <p>Data Analyst | SQL · Power BI · Excel</p>
+    <div class="badges">
+        <span class="badge">📍 Veraguas, Panama</span>
+        <span class="badge">💼 Available for freelance</span>
+        <span class="badge">🎓 Banking & Finance Student</span>
+    </div>
+</header>
+
+<section class="about">
+    <h2>About Me</h2>
+    <p>Data consultant specializing in Power BI dashboards, SQL data analysis, and Excel modeling. My approach: before I build anything, I ask what decision you need to make with this data. Currently offering freelance services on Fiverr and studying Licenciatura en Banca y Finanzas at Universidad de Panama.</p>
+</section>
+
+<section>
+    <h2>SQL Projects</h2>
+
+    <div class="card">
+        <h3>📊 SQL Data Exploration — S&P 500 Stock Market</h3>
+        <p>Explored 619,000 rows of historical stock data from the S&P 500 index. Identified high-volatility days, ranked companies by performance, and built a reusable VIEW for Power BI integration.</p>
+        <div class="tags">
+            <span class="tag">SELECT & WHERE</span>
+            <span class="tag">GROUP BY</span>
+            <span class="tag">CASE</span>
+            <span class="tag">JOIN</span>
+            <span class="tag">CTE</span>
+            <span class="tag">Window Functions</span>
+            <span class="tag">VIEW</span>
+        </div>
+        <a class="btn" href="https://github.com/mrco3456/-SQL--Portfolio---SP500" target="_blank">View on GitHub →</a>
+    </div>
+
+    <div class="card">
+        <h3>🏦 SQL Data Cleaning — Bank Transactions</h3>
+        <p>Cleaned 2,512 bank transaction records: detected NULLs, removed duplicates, corrected decimal errors in transaction amounts, applied String Functions, and built a final clean table ready for analysis.</p>
+        <div class="tags">
+            <span class="tag">NULL Check</span>
+            <span class="tag">Duplicate Detection</span>
+            <span class="tag">UPDATE</span>
+            <span class="tag">String Functions</span>
+            <span class="tag">ROW_NUMBER()</span>
+            <span class="tag">Clean Table</span>
+        </div>
+        <a class="btn" href="https://github.com/mrco3456/SQL-Portfolio-BankTransactions" target="_blank">View on GitHub →</a>
+    </div>
+</section>
+
+<section>
+    <h2>Tools & Skills</h2>
+    <div class="card">
+        <div class="tags">
+            <span class="tag">SQL Server (SSMS)</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Excel</span>
+            <span class="tag">DAX</span>
+            <span class="tag">Data Modeling</span>
+            <span class="tag">Star Schema</span>
+            <span class="tag">Data Cleaning</span>
+            <span class="tag">Dashboard Design</span>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Marcos Ruiz · <a href="https://github.com/mrco3456" style="color:#58a6ff;">GitHub</a></p>
+</footer>
+
+</body>
+</html>
